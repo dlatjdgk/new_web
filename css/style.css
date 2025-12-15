@@ -120,7 +120,7 @@ section > div:hover .txt, section > div:hover .txt a { color: #000; }
 	nav { width:100%; margin-left:0%;}		
 	section { width:100%; margin-left:0px;}	
 	
-	header h1 { position:static; width:200px; height:40px; background-image:url(../img/logo2.png); margin:0 auto;}	
+	header h1 { position:static; width:220px; height:50px; background-image:url(../img/logo1.png); margin:0 auto;}	
 	#gnb { position: static; display: flex; justify-content: center; width: 100%; margin-top: 20px; border-top: 1px solid #333;}
 	#gnb a { border: none; }
 	.snsSet { position:absolute; bottom:auto; top: 20px; right: 20px; margin: 0; width: auto;}
@@ -179,7 +179,8 @@ section > div:hover .txt, section > div:hover .txt a { color: #000; }
 }
 
 @media screen and (max-width: 639px) {  
-	header { height:auto; padding-bottom: 20px;}	
+	header { height:auto; padding-bottom: 20px;}
+	header h1 { width: 180px; height: 40px; background-image: url(../img/logo2.png); }
 	nav { display:none;}
 	#gnb { flex-wrap: wrap; }
 	#gnb li { width: 50%; text-align: center;}
