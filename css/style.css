@@ -47,12 +47,20 @@ section > div:nth-child(12) { grid-column: span 1; }
 section > div > div { position:relative; width:100%; height:100%; overflow:hidden; cursor:pointer; }
 
 /* header contents */
-header h1 { width:180px; height:80px; background:url(../img/logo1.png) no-repeat center center; background-size:contain; position:absolute; top:50px;	left:50%; margin-left:-90px; text-indent:-9999px;}
-#gnb { position:absolute; top:250px; width: 100%; text-align: center;}
+header h1 { width:180px; height:80px; background:url(../img/logo1.png) no-repeat center center; background-size:contain; position:absolute; top:30px;	left:50%; margin-left:-90px; text-indent:-9999px;}
+#gnb { position:absolute; top:150px; width: 100%; text-align: center;}
 #gnb a { display:block; padding:12px 30px;	font-size:18px; font-weight:bold; color:#fff; text-align:left; line-height:1.8; transition:all .5s; border-bottom: 1px solid #222;}
 #gnb a:hover { color:#76b900; background: #111;}
 #gnb a i { margin-right:15px; width: 20px; text-align: center;}
-.snsSet { width:100%; padding: 0 20px;	height:47px;	position:absolute; bottom:50px; left:0; display: flex; justify-content: space-around;}
+.snsSet { 
+    height:47px;
+    position:absolute;
+    bottom:50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+}
 .snsSet img {
     max-height: 24px;
     max-width: 24px;
