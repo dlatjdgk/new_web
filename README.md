@@ -1,33 +1,33 @@
-# NVIDIA Themed Promotional Website
+# NVIDIA 테마 홍보 웹사이트
 
-This is a responsive promotional website for NVIDIA products, built with HTML5 and modern CSS.
+이 프로젝트는 HTML5와 최신 CSS 기술로 제작된 NVIDIA 제품 홍보를 위한 반응형 웹사이트입니다.
 
-## 🚀 Features
+## 🚀 주요 기능
 
-*   **Responsive Design:** The layout adapts to various screen sizes, from mobile to desktop, using CSS Grid.
-*   **Themed Interface:** Styled with NVIDIA's official branding colors (green, black, grey) and typography.
-*   **Dynamic Layout:** The main content area is a grid that showcases different products and features.
+*   **반응형 디자인:** CSS Grid를 사용하여 모바일에서 데스크톱까지 다양한 화면 크기에 대응하는 레이아웃을 제공합니다.
+*   **테마 인터페이스:** NVIDIA의 공식 브랜드 색상과 타이포그래피로 스타일을 지정했습니다.
+*   **동적 레이아웃:** 메인 콘텐츠 영역은 다양한 제품과 기능을 보여주는 그리드 레이아웃으로 구성되어 있습니다.
 
-## 🖼️ Screenshots & Key Visuals
+## 🖼️ 스크린샷 및 주요 비주얼
 
-Here are some of the key visuals used in this project. The images are linked directly from the repository.
+이 프로젝트에 사용된 주요 비주얼 중 일부입니다. 이미지는 저장소에서 직접 연결됩니다.
 
-| Main Logo (Desktop) | Main Showcase Image |
+| 메인 로고 (데스크톱) | 메인 쇼케이스 이미지 |
 | :---: | :---: |
 | <img src="img/logo1.png" alt="NVIDIA Main Logo" width="200"> | <img src="img/pic1.jpg" alt="GeForce RTX" width="350"> |
 
-*(Note: These images may not render in all local Markdown viewers, but will appear correctly on version control platforms like GitHub.)*
+*(참고: 이 이미지는 일부 로컬 마크다운 뷰어에서는 렌더링되지 않을 수 있지만, GitHub와 같은 버전 관리 플랫폼에서는 올바르게 표시됩니다.)*
 
 
-## 🛠️ Technologies Used
+## 🛠️ 사용된 기술
 
-*   **HTML5:** For the basic structure and content.
-*   **CSS3:** For styling, layout, and responsiveness.
-    *   **CSS Grid:** Used for the main content layout.
-    *   **Media Queries:** For adaptive styling on different devices.
-*   **JavaScript (prefixfree.js):** For handling CSS vendor prefixes automatically.
+*   **HTML5:** 기본 구조와 콘텐츠에 사용되었습니다.
+*   **CSS3:** 스타일링, 레이아웃 및 반응형 디자인에 사용되었습니다.
+    *   **CSS Grid:** 메인 콘텐츠 레이아웃에 사용되었습니다.
+    *   **미디어 쿼리:** 다양한 기기에서의 적응형 스타일링에 사용되었습니다.
+*   **JavaScript (prefixfree.js):** CSS 공급업체 접두사를 자동으로 처리하는 데 사용되었습니다.
 
-## 📂 Project Structure
+## 📂 프로젝트 구조
 ```
 /
 ├── css/
@@ -36,11 +36,11 @@ Here are some of the key visuals used in this project. The images are linked dir
 │   ├── logo1.png
 │   ├── logo2.png
 │   ├── pic1.jpg
-│   ├── ... (and other images)
+│   ├── ... (기타 이미지)
 ├── js/
 │   └── prefixfree.min.js
 └── index.html
 ```
 
 ---
-*This README was automatically generated and updated by the Gemini CLI agent.*
+*이 README 파일은 Gemini CLI 에이전트에 의해 자동으로 생성 및 업데이트되었습니다.*
