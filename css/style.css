@@ -53,10 +53,22 @@ header h1 { width:180px; height:80px; background:url(../img/logo1.png) no-repeat
 #gnb a:hover { color:#76b900; background: #111;}
 #gnb a i { margin-right:15px; width: 20px; text-align: center;}
 .snsSet { width:100%; padding: 0 20px;	height:47px;	position:absolute; bottom:50px; left:0; display: flex; justify-content: space-around;}
+.snsSet img {
+    max-height: 24px;
+    max-width: 24px;
+    height: auto; /* Ensure aspect ratio is maintained */
+    width: auto;  /* Ensure aspect ratio is maintained */
+}
 
 /*nav*/
 nav { display: flex; justify-content: flex-end; align-items: center; padding: 0 20px;}
 nav a { position: static; margin-left: 20px; }
+nav a img {
+    max-height: 24px;
+    max-width: 24px;
+    height: auto; /* Ensure aspect ratio is maintained */
+    width: auto;  /* Ensure aspect ratio is maintained */
+}
 
 
 /* Background Images */
